@@ -28,3 +28,7 @@ Retrieving, Parsing, and Displaying Earthquake Data in Python
 
 <img width="501" alt="image" src="https://github.com/bigheadG/plot-earthquake-data/assets/2010446/a7225003-9ea2-4302-97e0-e44319a1978b">
 
+
+
+https://github.com/bigheadG/plot-earthquake-data/assets/2010446/cf1a48f0-2dd1-4d7a-9071-716bc3fefc1f
+
