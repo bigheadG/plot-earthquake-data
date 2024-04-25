@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d99d2fe59bb18b9be6bd6799732b60c1 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_d99d2fe59bb18b9be6bd6799732b60c1" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d99d2fe59bb18b9be6bd6799732b60c1 = L.map(
+                "map_d99d2fe59bb18b9be6bd6799732b60c1",
+                {
+                    center: [23.6978, 120.9605],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 9,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_df470b31d7b5eb42d23fdb4f93bafec2 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_df470b31d7b5eb42d23fdb4f93bafec2.addTo(map_d99d2fe59bb18b9be6bd6799732b60c1);
+        
+    
+            var marker_0d909bb68768c4048b6308ffe9e6b2fd = L.marker(
+                [23.8141, 121.655],
+                {}
+            ).addTo(map_d99d2fe59bb18b9be6bd6799732b60c1);
+        
+    
+            var icon_437f71d78c5f2b7e8d334dafed24dcd4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0d909bb68768c4048b6308ffe9e6b2fd.setIcon(icon_437f71d78c5f2b7e8d334dafed24dcd4);
+        
+    
+        var popup_01a3a4c3fdfa6da391d66b30c7a3eee5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_86431c891d2a9420f9f78f029cae41f9 = $(`<div id="html_86431c891d2a9420f9f78f029cae41f9" style="width: 100.0%; height: 100.0%;">Magnitude: 4.7, Title: M 4.7 - 18 km SSE of Hualien City, Taiwan, Time: 2024-04-25 09:23:20</div>`)[0];
+                popup_01a3a4c3fdfa6da391d66b30c7a3eee5.setContent(html_86431c891d2a9420f9f78f029cae41f9);
+            
+        
+
+        marker_0d909bb68768c4048b6308ffe9e6b2fd.bindPopup(popup_01a3a4c3fdfa6da391d66b30c7a3eee5)
+        ;
+
+        
+    
+    
+            var marker_f9c839aa8de86049c48a724e4e7a86e0 = L.marker(
+                [23.6701, 121.6589],
+                {}
+            ).addTo(map_d99d2fe59bb18b9be6bd6799732b60c1);
+        
+    
+        var popup_740fe80207aec68af3fdf3ff6e092594 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_86e2513b5f290e0fd10d2b44a4d05485 = $(`<div id="html_86e2513b5f290e0fd10d2b44a4d05485" style="width: 100.0%; height: 100.0%;">Magnitude: 4.7, Title: M 4.7 - 34 km S of Hualien City, Taiwan, Time: 2024-04-25 08:19:12</div>`)[0];
+                popup_740fe80207aec68af3fdf3ff6e092594.setContent(html_86e2513b5f290e0fd10d2b44a4d05485);
+            
+        
+
+        marker_f9c839aa8de86049c48a724e4e7a86e0.bindPopup(popup_740fe80207aec68af3fdf3ff6e092594)
+        ;
+
+        
+    
+    
+            var marker_36dba8f05d683e1f93fe72c295d8dc9d = L.marker(
+                [23.7569, 121.6312],
+                {}
+            ).addTo(map_d99d2fe59bb18b9be6bd6799732b60c1);
+        
+    
+        var popup_5dd192b92804bd758b3f6b79f5fbaa66 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_24ac4d3dba65c52429e77fd35ef03de6 = $(`<div id="html_24ac4d3dba65c52429e77fd35ef03de6" style="width: 100.0%; height: 100.0%;">Magnitude: 4.9, Title: M 4.9 - 24 km S of Hualien City, Taiwan, Time: 2024-04-24 15:30:53</div>`)[0];
+                popup_5dd192b92804bd758b3f6b79f5fbaa66.setContent(html_24ac4d3dba65c52429e77fd35ef03de6);
+            
+        
+
+        marker_36dba8f05d683e1f93fe72c295d8dc9d.bindPopup(popup_5dd192b92804bd758b3f6b79f5fbaa66)
+        ;
+
+        
+    
+    
+            var marker_e0a5badddeab0e4b31625ec54b00e80c = L.marker(
+                [24.0619, 121.7117],
+                {}
+            ).addTo(map_d99d2fe59bb18b9be6bd6799732b60c1);
+        
+    
+        var popup_d49e60e7576ca7ee3463f58c778eb3fa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f981ac5181593e0b61bc6507f55aa4b6 = $(`<div id="html_f981ac5181593e0b61bc6507f55aa4b6" style="width: 100.0%; height: 100.0%;">Magnitude: 4.9, Title: M 4.9 - 14 km NE of Hualien City, Taiwan, Time: 2024-04-24 00:02:21</div>`)[0];
+                popup_d49e60e7576ca7ee3463f58c778eb3fa.setContent(html_f981ac5181593e0b61bc6507f55aa4b6);
+            
+        
+
+        marker_e0a5badddeab0e4b31625ec54b00e80c.bindPopup(popup_d49e60e7576ca7ee3463f58c778eb3fa)
+        ;
+
+        
+    
+    
+            var marker_0f6b1e514ed4a36c3ebcc14095a3ae72 = L.marker(
+                [23.7091, 121.6223],
+                {}
+            ).addTo(map_d99d2fe59bb18b9be6bd6799732b60c1);
+        
+    
+        var popup_54abe3ce991039ed8558e421a0b33ad4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e3da6ce53e4b0c7b2229e3db41c2bdb3 = $(`<div id="html_e3da6ce53e4b0c7b2229e3db41c2bdb3" style="width: 100.0%; height: 100.0%;">Magnitude: 4.7, Title: M 4.7 - 29 km S of Hualien City, Taiwan, Time: 2024-04-23 13:08:05</div>`)[0];
+                popup_54abe3ce991039ed8558e421a0b33ad4.setContent(html_e3da6ce53e4b0c7b2229e3db41c2bdb3);
+            
+        
+
+        marker_0f6b1e514ed4a36c3ebcc14095a3ae72.bindPopup(popup_54abe3ce991039ed8558e421a0b33ad4)
+        ;
+
+        
+    
+    
+            var marker_56be51d455ed7e47c07ad3e9da730ba2 = L.marker(
+                [23.8333, 121.6102],
+                {}
+            ).addTo(map_d99d2fe59bb18b9be6bd6799732b60c1);
+        
+    
+        var popup_ef8b1d1f75d7f90e3701116e7addd7b7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f874f12835d4f8006d55c8553fe5964b = $(`<div id="html_f874f12835d4f8006d55c8553fe5964b" style="width: 100.0%; height: 100.0%;">Magnitude: 5.2, Title: M 5.2 - 15 km S of Hualien City, Taiwan, Time: 2024-04-23 10:21:00</div>`)[0];
+                popup_ef8b1d1f75d7f90e3701116e7addd7b7.setContent(html_f874f12835d4f8006d55c8553fe5964b);
+            
+        
+
+        marker_56be51d455ed7e47c07ad3e9da730ba2.bindPopup(popup_ef8b1d1f75d7f90e3701116e7addd7b7)
+        ;
+
+        
+    
+    
+            var marker_b201b62a8eb52e22739ae23e60185d2d = L.marker(
+                [23.7826, 121.593],
+                {}
+            ).addTo(map_d99d2fe59bb18b9be6bd6799732b60c1);
+        
+    
+        var popup_80ad17848adbad16b49a156f5c9fdaf5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d598b6002a5aed0567f80b04d9fcc37a = $(`<div id="html_d598b6002a5aed0567f80b04d9fcc37a" style="width: 100.0%; height: 100.0%;">Magnitude: 4.9, Title: M 4.9 - 21 km S of Hualien City, Taiwan, Time: 2024-04-23 09:45:45</div>`)[0];
+                popup_80ad17848adbad16b49a156f5c9fdaf5.setContent(html_d598b6002a5aed0567f80b04d9fcc37a);
+            
+        
+
+        marker_b201b62a8eb52e22739ae23e60185d2d.bindPopup(popup_80ad17848adbad16b49a156f5c9fdaf5)
+        ;
+
+        
+    
+    
+            var marker_0cdfd54a24dfacabf8966d6b25ba42b1 = L.marker(
+                [23.8391, 121.5765],
+                {}
+            ).addTo(map_d99d2fe59bb18b9be6bd6799732b60c1);
+        
+    
+        var popup_19391456cca660df5ac23cdc426b32f0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c21308413d56d048580b7b533d164b07 = $(`<div id="html_c21308413d56d048580b7b533d164b07" style="width: 100.0%; height: 100.0%;">Magnitude: 4.7, Title: M 4.7 - 15 km S of Hualien City, Taiwan, Time: 2024-04-23 09:22:43</div>`)[0];
+                popup_19391456cca660df5ac23cdc426b32f0.setContent(html_c21308413d56d048580b7b533d164b07);
+            
+        
+
+        marker_0cdfd54a24dfacabf8966d6b25ba42b1.bindPopup(popup_19391456cca660df5ac23cdc426b32f0)
+        ;
+
+        
+    
+    
+            var marker_54d325e018cb3486d3df1b546c866cd1 = L.marker(
+                [23.8235, 121.5953],
+                {}
+            ).addTo(map_d99d2fe59bb18b9be6bd6799732b60c1);
+        
+    
+        var popup_2486c425428b228b8b245d100352f630 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cbb9e850fb1f881036b0dd4ab98c6973 = $(`<div id="html_cbb9e850fb1f881036b0dd4ab98c6973" style="width: 100.0%; height: 100.0%;">Magnitude: 4.6, Title: M 4.6 - 17 km S of Hualien City, Taiwan, Time: 2024-04-23 09:19:33</div>`)[0];
+                popup_2486c425428b228b8b245d100352f630.setContent(html_cbb9e850fb1f881036b0dd4ab98c6973);
+            
+        
+
+        marker_54d325e018cb3486d3df1b546c866cd1.bindPopup(popup_2486c425428b228b8b245d100352f630)
+        ;
+
+        
+    
+    
+            var marker_a094b81c241fee427450f26ef1593072 = L.marker(
+                [23.8982, 121.5981],
+                {}
+            ).addTo(map_d99d2fe59bb18b9be6bd6799732b60c1);
+        
+    
+        var popup_0622306f7d8575be4782498f373a1190 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a6a80e8fea32f6e4386215988eb447e7 = $(`<div id="html_a6a80e8fea32f6e4386215988eb447e7" style="width: 100.0%; height: 100.0%;">Magnitude: 5.2, Title: M 5.2 - 8 km S of Hualien City, Taiwan, Time: 2024-04-23 08:11:02</div>`)[0];
+                popup_0622306f7d8575be4782498f373a1190.setContent(html_a6a80e8fea32f6e4386215988eb447e7);
+            
+        
+
+        marker_a094b81c241fee427450f26ef1593072.bindPopup(popup_0622306f7d8575be4782498f373a1190)
+        ;
+
+        
+    
+    
+            var marker_c4be36accda3fa04585030d745058b7b = L.marker(
+                [23.8026, 121.6764],
+                {}
+            ).addTo(map_d99d2fe59bb18b9be6bd6799732b60c1);
+        
+    
+        var popup_2d3b37898875a6d9e85070b651813cac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5ea018f6696ffabfa13257609bb5d551 = $(`<div id="html_5ea018f6696ffabfa13257609bb5d551" style="width: 100.0%; height: 100.0%;">Magnitude: 5.8, Title: M 5.8 - 20 km SSE of Hualien City, Taiwan, Time: 2024-04-23 08:04:05</div>`)[0];
+                popup_2d3b37898875a6d9e85070b651813cac.setContent(html_5ea018f6696ffabfa13257609bb5d551);
+            
+        
+
+        marker_c4be36accda3fa04585030d745058b7b.bindPopup(popup_2d3b37898875a6d9e85070b651813cac)
+        ;
+
+        
+    
+    
+            var marker_4b465e2da0b0d9bcb72575597629b07e = L.marker(
+                [23.6992, 121.6391],
+                {}
+            ).addTo(map_d99d2fe59bb18b9be6bd6799732b60c1);
+        
+    
+        var popup_c8c9d85c591c6de5c0d3f35dc06bcc89 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0523c8ec576df04c26eb4a72ffaabe1e = $(`<div id="html_0523c8ec576df04c26eb4a72ffaabe1e" style="width: 100.0%; height: 100.0%;">Magnitude: 4.5, Title: M 4.5 - 30 km S of Hualien City, Taiwan, Time: 2024-04-23 08:03:49</div>`)[0];
+                popup_c8c9d85c591c6de5c0d3f35dc06bcc89.setContent(html_0523c8ec576df04c26eb4a72ffaabe1e);
+            
+        
+
+        marker_4b465e2da0b0d9bcb72575597629b07e.bindPopup(popup_c8c9d85c591c6de5c0d3f35dc06bcc89)
+        ;
+
+        
+    
+</script>
+</html>
